@@ -1,0 +1,65 @@
+@media (max-width:104em) {
+
+.sections {
+grid-template-columns: 1fr;
+gap: 30px;
+font-size: ;}
+}
+
+@media (max-width:87em) {
+    .pessoas-desaparecidas {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2,2fr);
+        justify-items: center;
+
+        padding: 4.8em 0 0 5.2em;
+
+    }
+    .pessoas-desaparecidas img {
+        display:block;
+        width: 70%;
+     
+    }
+    .mensagem {
+        font-size: 2.5em;
+    }
+    .desaparecidos-section-1 {
+        display: flex;
+        flex-direction: column;
+
+        grid-template-columns: 1fr;
+        margin-top: 400px;
+        margin-bottom: 500px;
+    }
+
+    .header-desaparecidos{
+        font-size: 3.8rem;
+}
+
+    
+
+@media (max-width:40em){
+
+ .pessoas-desaparecidas {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+ .container-desaparecidos {
+    font-size: 3.2rem;
+ }
+}
+@media (max-width:60em) {
+    .mensagem {
+        font-size: 2.3rem;
+    }
+    .maringa-flag {
+        display: none;
+    }
+}
+@media (max-width:40em) {
+    .mensagem {
+        display: none;
+    }
+
+}

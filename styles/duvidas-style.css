@@ -1,0 +1,139 @@
+.desappear {
+    max-width: 20rem;
+    position: relative;
+    
+}
+.header_pagina_duvidas {
+    display:flex;
+    justify-content: space-around;
+  height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image:linear-gradient(to bottom, rgba(42, 39, 39, 0.82),rgba(0, 0, 0, 0.444)), url('/img/much_children.png');
+
+  margin-top: 2em;
+  padding: 1em 2em;
+
+  }
+
+.titulo-duvidas {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.duvidas-img {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.text-duvidas {
+    font-size: 2.1rem;
+    color: #555;
+text-align: left
+}
+
+.section-duvidas {
+border-bottom: 2px solid  #333;
+    gap: 20px;
+}
+
+.card-duvidas {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ gap: 10px;
+ margin: 0 auto;
+    padding: 2rem;
+    max-width: 400px;
+ 
+  
+}
+
+/* ARTICLE DUVIDAS */
+.article-duvidas {
+    height: 500px;
+}
+
+.imagem_coberta {
+    max-width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#crianca_coberta {
+    width: 100%;
+}
+
+.title-article {
+    text-align: center;
+    font-size: 4.2rem;
+    color:#fff;
+    padding: 8rem 4rem;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+ 
+
+}
+
+.card-container p {
+    color: #333;
+    font-size: 2.2rem;
+}
+
+.article-title {
+ text-align: center;
+ font-size: 3.5rem;
+ color:#333;
+ padding-top: 64px;
+ padding-bottom: 32px;
+ margin-top: 40px;
+}
+.footer_content {
+    border-bottom: 2px solid #222;
+  margin-bottom: 50px;
+}
+/* CONTAINER DUVIDAS CARDS */
+.container-duvidas-cards {
+    margin: 60px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+
+}
+
+@media (max-width:925px){
+    .container-duvidas-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:600px){
+    .container-duvidas-cards {
+        grid-template-columns: 1fr;
+        gap: 1em;
+        margin: 20px 20px;
+    }
+    .article-title {
+        color: rgba(255, 255, 255, 0.906);
+    }
+    .section-duvidas {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:320px){
+    .container-duvidas-cards{
+        gap: 100px;
+    }
+    .header_pagina_duvidas {
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    
+}
